@@ -211,6 +211,8 @@ body{
     justify-content: center;
     margin-left: 5rem;
     margin-right: 5rem;
+    width: 600;
+    height: 900;
 }
 .textoFormulario{
     margin-bottom: 10rem;
@@ -251,4 +253,47 @@ vertical-align: middle;
       height: 50vh;
       margin-right: 0;
     }
+    .contenido-titulo{
+        width: 100%;
+        text-align: center;
+    }
+    .galeriaimagenes {
+        gap: 20px;
+      }
+    .galeriaimagenes .contenedores {
+        flex-direction: column;
+        align-items: center;
+      }
+      .galeriaimagenes .contenedores img {
+        width: 80vw;
+      }
+      .contenedor-line {
+        display: none;
+      }
+      .contenido {
+        width: 80%;
+      }
+      .contenido-line {
+        display: none;
+      }
+      .sedes-titulos{
+        height: 200px;
+        width: auto;
+        margin-left: 25px;
+      }
+      .texto-sedes{
+        margin-top: 20px;
+        height: 500px;
+        width: auto;
+        margin-left: 25px;
+      }
+      contenedor-mapa{
+        width: 300px;
+        height: 300px;
+      }
+      .mapa-tamaño{
+        width: 100%;
+        height: auto;
+        margin: 0;
+      }
   }
