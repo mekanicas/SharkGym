@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.logoname{
+    color: rgb(0, 0, 0);
+}
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navbarimg{
+    height: 10vh;
+    width: auto;
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.7rem;
+}
+.menu a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(77, 1, 255);
+    border-radius: 20px;
+}
+.clases{
+    margin: 5rem;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    position: relative;
+}
+.clases:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -5px;
+    width: 50%; 
+    height: 10px;
+    background-color: black;
+}
+.cartas{
+    width: 30rem;
+}
+.cartas img{
+    margin-top: 10px;
+    height: 20rem;
+    width: auto;
+}
+.ImagenParrafo p{
+    background-color: #083353;
+    width: auto;
+    height: 26.54rem;
+    font-size: large;
+    margin: -16px;
+    padding: 10px;
+    color: white;
+}
+.texto-planes{
+    margin: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: 50;
+}
+.plan1{
+    display: inline-block;
+    vertical-align: top;
+    display: table-cell;
+    width: 385px;
+    padding: 0 0 10px;
+    border: 1px solid #dcd0e0;
+    border-radius: 2px;
+    text-align: center;
+    background-image: var(--bs-gradient);
+}
+.plan-lista{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    padding: 40px 20px 0;
+    border: 1px solid #dcd0e0;
+    text-align: left;
+    background-image: var(--bs-gradient)
+}
+.plan{
+    display: inline-block;
+    vertical-align: top;
+    width: calc(50% - 20px);
+    margin: 0 10px;
+    border: 1px solid #dcd0e0;
+    border-radius: 2px;
+    text-align: center;
+}
+.plan-lista{
+    display: inline-block;
+    vertical-align: top;
+    width: calc(50% - 20px);
+    padding: 40px 20px 0;
+    border: 1px solid #dcd0e0;
+    text-align: left;
+}
+.boton{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.boton:hover{
+    background-color: #cccccc;
+    
+}
+.textForm{
+    background-color: #ee8d1f;
+    text-align: center;
+}
+.formPosition{
+    background-color: #ee8d1f;
+    text-align: center;
+}
+.galeriaimagenes{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.contenido{
+    width: 20vw;
+    margin-top: 2.5rem;
+}
+.contenido p{
+    color: rgb(0, 0, 0);
+    margin: 0.5rem;
+}
+.sedes-titulos{
+    margin: 5rem;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    position: relative;
+}
+.sedes-titulos:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -5px;
+    width: 50%; 
+    height: 10px;
+    background-color: black;
+}
+.galeriaimagenes .contenedores{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.galeriaimagenes .contenedores img{
+    width: 20vw;
+    height: auto;
+    border: double rgb(0, 0, 0);
+    opacity: 0.4;
+}
+.galeriaimagenes .contenedores img:hover{
+    opacity: 1;
+    border: white solid 2px;
+}
+.overflowcontainer{
+    max-height: 200px;
+    overflow: auto;
+    color: red;
+}
+.texto-sedes{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    margin-left: 5rem;
+}
+.iframe-sedes{
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.textoFormulario{
+    margin-bottom: 10rem;
+}
+.textoFormulario h2{
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    font-weight: bold;
+    font-size: 5rem;
+}
+.textoFormulario p{
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    font-size: 1.5rem;
+}
+.formu{
+    width: 400px;
+    margin: 2rem auto;
+    border: rgb(255, 196, 0) solid 5px;
+}
+.footer-image{
+max-width: 200px;
+margin-right: 20px;
+vertical-align: middle;
+}
+.image-container {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 767px) {
+    .image-container {
+      text-align: center;
+    }
+  
+    .footer-image {
+      max-width: 100%;
+      height: 50vh;
+      margin-right: 0;
+    }
+  }
