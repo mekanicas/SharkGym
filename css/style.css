@@ -31,6 +31,39 @@ body{
     color: rgb(77, 1, 255);
     border-radius: 20px;
 }
+.section-inicio {
+    height: 100vh;
+}
+  
+.background-inicio {
+    background-image: url('../media/gym_media/encapuchado.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.background-inicio h1, .background-inicio h3 {
+    font-family: 'Archivo Black', 'Bebas Neue', sans-serif;
+    color: rgb(166, 255, 0);
+    margin: 0;
+}
+.btn-propio{
+    color: rgb(166, 255, 0);
+}
+.btn-propio:hover{
+    color: rgb(166, 255, 0);
+}
 .clases{
     margin: 5rem;
     text-align: center;
