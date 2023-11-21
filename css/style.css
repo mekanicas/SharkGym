@@ -91,6 +91,12 @@ body{
     height: 20rem;
     width: auto;
 }
+.planes{
+    color: white;
+}
+.planes h3{
+    margin-top: 10px;
+}
 .ImagenParrafo p{
     background-color: #083353;
     width: auto;
@@ -104,47 +110,45 @@ body{
     margin: 1rem;
     color: rgb(0, 0, 0);
     font-weight: 50;
+    display: inline-block;
+    text-align: left;
+}
+.texto-planes h1{
+    font-size: 75px;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.texto-planes p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+planes-box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
 }
 .plan1{
-    display: inline-block;
-    vertical-align: top;
-    display: table-cell;
-    width: 385px;
-    padding: 0 0 10px;
-    border: 1px solid #dcd0e0;
+    padding: 30px;
     border-radius: 2px;
     text-align: center;
-    background-image: var(--bs-gradient);
+    background-color: rgb(56, 56, 56);
 }
 .plan-lista{
-    display: inline-block;
-    vertical-align: top;
     margin-top: 40px;
-    padding: 40px 20px 0;
-    border: 1px solid #dcd0e0;
+    padding: 30px;
+    border: 1px solid #000000;
     text-align: left;
-    background-image: var(--bs-gradient)
+    background-color: rgb(56, 56, 56);
+    
 }
 .plan{
-    display: inline-block;
-    vertical-align: top;
-    width: calc(50% - 20px);
     margin: 0 10px;
     border: 1px solid #dcd0e0;
     border-radius: 2px;
     text-align: center;
 }
-.plan-lista{
-    display: inline-block;
-    vertical-align: top;
-    width: calc(50% - 20px);
-    padding: 40px 20px 0;
-    border: 1px solid #dcd0e0;
-    text-align: left;
-}
 .boton{
     padding: 10px 20px;
-    background-color: #ffffff;
+    background-color: #00ff5e;
     color: #000000;
     border: none;
     border-radius: 5px;
@@ -153,8 +157,21 @@ body{
     transition: 0.3s;
 }
 .boton:hover{
-    background-color: #cccccc;
+    background-color: #088d39;
     
+}
+.boton-2{
+    padding: 10px 20px;
+    background-color: #be5dff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.boton-2:hover{
+    background-color: #a013ff;
 }
 .textForm{
     background-color: #ee8d1f;
@@ -276,6 +293,18 @@ vertical-align: middle;
     max-width: 100%;
     height: auto;
 }
+.redes h5{
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.redes i{
+    color: #ffffff;
+}
+.redes i:hover{
+    color: #b1b1b1;
+    transition: 0.3s;
+}
+
 @media (max-width: 767px) {
     .image-container {
       text-align: center;
@@ -328,5 +357,8 @@ vertical-align: middle;
         width: 100%;
         height: auto;
         margin: 0;
+      }
+      .planes-box{
+        margin-top: 50px;
       }
   }
