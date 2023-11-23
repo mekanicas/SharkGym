@@ -1,0 +1,83 @@
+.planes {
+    color: white;
+  
+    h3 {
+      margin-top: 10px;
+    }
+  }
+  
+  .texto-planes {
+    margin: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: 50;
+    display: inline-block;
+    text-align: left;
+  
+    h1 {
+      font-size: 75px;
+      font-family: 'Archivo Black', sans-serif;
+      font-family: 'Bebas Neue', sans-serif;
+    }
+  
+    p {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  }
+  
+  .planes-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .plan1 {
+    padding: 30px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+  }
+  
+  .plan-lista {
+    margin-top: 40px;
+    padding: 30px;
+    border: 1px solid #000000;
+    text-align: left;
+    background-color: rgb(56, 56, 56);
+  }
+  
+  .plan {
+    margin: 0 10px;
+    border: 1px solid #dcd0e0;
+    border-radius: 2px;
+    text-align: center;
+  }
+  
+  .boton {
+    padding: 10px 20px;
+    background-color: #00ff5e;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  
+    &:hover {
+      background-color: #088d39;
+    }
+  }
+  
+  .boton-2 {
+    padding: 10px 20px;
+    background-color: #be5dff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  
+    &:hover {
+      background-color: #a013ff;
+    }
+  }
+  

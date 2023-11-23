@@ -1,0 +1,30 @@
+.clases {
+    margin: 5rem;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    position: relative;
+  
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: -5px;
+      width: 50%;
+      height: 10px;
+      background-color: black;
+    }
+  }
+  
+  .cartas {
+    width: 30rem;
+  
+    img {
+      margin-top: 10px;
+      height: 20rem;
+      width: auto;
+    }
+  }

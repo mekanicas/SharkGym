@@ -1,0 +1,26 @@
+.logoname {
+    color: rgb(0, 0, 0);
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .navbarimg {
+    height: 10vh;
+    width: auto;
+  }
+  
+  .menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.7rem;
+  }
+  
+  .menu a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(77, 1, 255);
+    border-radius: 20px;
+  }

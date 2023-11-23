@@ -1,0 +1,95 @@
+.galeriaimagenes {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .contenido-titulo {
+    background-color: rgb(255, 166, 0);
+    width: 10vw;
+    border-radius: 10px;
+    padding-left: 5px;
+  
+    &:hover {
+      background-color: rgb(163, 106, 0);
+      transition: 0.3s;
+    }
+  }
+  
+  .contenido-line {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 1px;
+    background-color: black;
+  }
+  
+  .contenido {
+    width: 20vw;
+    margin-top: 2.5rem;
+  
+    p {
+      color: rgb(0, 0, 0);
+      margin: 0.5rem;
+    }
+  }
+  
+  .sedes-titulos{
+    margin: 5rem;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    position: relative;
+  
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: -5px;
+      width: 50%;
+      height: 10px;
+      background-color: black;
+    }
+  }
+  
+  .galeriaimagenes .contenedores {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  
+    img {
+      width: 20vw;
+      height: auto;
+      border: double rgb(0, 0, 0);
+      opacity: 0.4;
+  
+      &:hover {
+        opacity: 1;
+        border: white solid 2px;
+      }
+    }
+  }
+  
+  .overflowcontainer {
+    max-height: 200px;
+    overflow: auto;
+  }
+  
+  .texto-sedes {
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    margin-left: 5rem;
+  }
+  
+  .iframe-sedes {
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 600;
+    height: 900;
+  }

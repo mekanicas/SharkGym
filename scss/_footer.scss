@@ -1,0 +1,26 @@
+.footer-image {
+    max-width: 200px;
+    margin-right: 20px;
+    vertical-align: middle;
+  }
+  
+  .image-container {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .redes {
+    h5 {
+      text-decoration: underline;
+      margin-bottom: 15px;
+    }
+  
+    i {
+      color: #ffffff;
+  
+      &:hover {
+        color: #b1b1b1;
+        transition: 0.3s;
+      }
+    }
+  }

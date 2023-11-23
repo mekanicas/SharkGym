@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.logoname{
+    color: rgb(0, 0, 0);
+}
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navbarimg{
+    height: 10vh;
+    width: auto;
+}
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.7rem;
+}
+.menu a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(77, 1, 255);
+    border-radius: 20px;
+}
+.section-inicio {
+    height: 100vh;
+}
+  
+.background-inicio {
+    background-image: url('../media/gym_media/encapuchado.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.background-inicio h1, .background-inicio h3 {
+    font-family: 'Archivo Black', 'Bebas Neue', sans-serif;
+    color: rgb(166, 255, 0);
+    margin: 0;
+}
+.btn-propio{
+    color: rgb(166, 255, 0);
+}
+.btn-propio:hover{
+    color: rgb(166, 255, 0);
+}
+.clases{
+    margin: 5rem;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    position: relative;
+}
+.clases:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -5px;
+    width: 50%; 
+    height: 10px;
+    background-color: black;
+}
+.cartas{
+    width: 30rem;
+}
+.cartas img{
+    margin-top: 10px;
+    height: 20rem;
+    width: auto;
+}
+.planes{
+    color: white;
+}
+.planes h3{
+    margin-top: 10px;
+}
+.ImagenParrafo p{
+    background-color: #083353;
+    width: auto;
+    height: 26.54rem;
+    font-size: large;
+    margin: -16px;
+    padding: 10px;
+    color: white;
+}
+.texto-planes{
+    margin: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: 50;
+    display: inline-block;
+    text-align: left;
+}
+.texto-planes h1{
+    font-size: 75px;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.texto-planes p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+planes-box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+}
+.plan1{
+    padding: 30px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+}
+.plan-lista{
+    margin-top: 40px;
+    padding: 30px;
+    border: 1px solid #000000;
+    text-align: left;
+    background-color: rgb(56, 56, 56);
+    
+}
+.plan{
+    margin: 0 10px;
+    border: 1px solid #dcd0e0;
+    border-radius: 2px;
+    text-align: center;
+}
+.boton{
+    padding: 10px 20px;
+    background-color: #00ff5e;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.boton:hover{
+    background-color: #088d39;
+    
+}
+.boton-2{
+    padding: 10px 20px;
+    background-color: #be5dff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.boton-2:hover{
+    background-color: #a013ff;
+}
+.textForm{
+    background-color: #ee8d1f;
+    text-align: center;
+}
+.formPosition{
+    background-color: #ee8d1f;
+    text-align: center;
+}
+.galeriaimagenes{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.contenido-titulo{
+    background-color: rgb(255, 166, 0);
+    width: 10vw;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.contenido-titulo:hover{
+    background-color: rgb(163, 106, 0);
+    transition: 0.3s;
+}
+.contenido-line{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 1px;
+    background-color: black;
+}
+.contenido{
+    width: 20vw;
+    margin-top: 2.5rem;
+}
+.contenido p{
+    color: rgb(0, 0, 0);
+    margin: 0.5rem;
+}
+.sedes-titulos{
+    margin: 5rem;
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    position: relative;
+}
+.sedes-titulos:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -5px;
+    width: 50%; 
+    height: 10px;
+    background-color: black;
+}
+.galeriaimagenes .contenedores{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.galeriaimagenes .contenedores img{
+    width: 20vw;
+    height: auto;
+    border: double rgb(0, 0, 0);
+    opacity: 0.4;
+}
+.galeriaimagenes .contenedores img:hover{
+    opacity: 1;
+    border: white solid 2px;
+}
+.overflowcontainer{
+    max-height: 200px;
+    overflow: auto;
+    color: red;
+}
+.texto-sedes{
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    margin-left: 5rem;
+}
+.iframe-sedes{
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 600;
+    height: 900;
+}
+.textoFormulario{
+    margin-bottom: 10rem;
+}
+.textoFormulario h2{
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    font-weight: bold;
+    font-size: 5rem;
+}
+.textoFormulario p{
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    font-size: 1.5rem;
+}
+.formu{
+    width: 400px;
+    margin: 2rem auto;
+    border: rgb(255, 196, 0) solid 5px;
+}
+.footer-image{
+max-width: 200px;
+margin-right: 20px;
+vertical-align: middle;
+}
+.image-container {
+    max-width: 100%;
+    height: auto;
+}
+.redes h5{
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.redes i{
+    color: #ffffff;
+}
+.redes i:hover{
+    color: #b1b1b1;
+    transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+    .image-container {
+      text-align: center;
+    }
+  
+    .footer-image {
+      max-width: 100%;
+      height: 50vh;
+      margin-right: 0;
+    }
+    .contenido-titulo{
+        width: 100%;
+        text-align: center;
+    }
+    .galeriaimagenes {
+        gap: 20px;
+      }
+    .galeriaimagenes .contenedores {
+        flex-direction: column;
+        align-items: center;
+      }
+      .galeriaimagenes .contenedores img {
+        width: 80vw;
+      }
+      .contenedor-line {
+        display: none;
+      }
+      .contenido {
+        width: 80%;
+      }
+      .contenido-line {
+        display: none;
+      }
+      .sedes-titulos{
+        height: 200px;
+        width: auto;
+        margin-left: 25px;
+      }
+      .texto-sedes{
+        margin-top: 20px;
+        height: 500px;
+        width: auto;
+        margin-left: 25px;
+      }
+      contenedor-mapa{
+        width: 300px;
+        height: 300px;
+      }
+      .mapa-tamaño{
+        width: 100%;
+        height: auto;
+        margin: 0;
+      }
+      .planes-box{
+        margin-top: 50px;
+      }
+  }
