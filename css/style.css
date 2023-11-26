@@ -133,12 +133,10 @@ body {
   align-items: center;
   text-align: center;
 }
-
-.background-inicio h1,
-.background-inicio h3 {
+.background-inicio h1, .background-inicio h3 {
   font-family: "Archivo Black", "Bebas Neue", sans-serif;
-  color: rgb(166, 255, 0);
   margin: 0;
+  color: rgb(166, 255, 0);
 }
 
 .btn-propio {
@@ -146,6 +144,30 @@ body {
 }
 .btn-propio:hover {
   color: rgb(166, 255, 0);
+}
+
+.background-inicio2 {
+  background-image: url("../media/gym_media/sedesbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.background-inicio2 h1, .background-inicio2 h3 {
+  font-family: "Archivo Black", "Bebas Neue", sans-serif;
+  margin: 0;
+  color: rgb(255, 0, 128);
+}
+
+.btn-propio2 {
+  color: rgb(255, 0, 128);
+}
+.btn-propio2:hover {
+  color: rgb(255, 0, 128);
 }
 
 .clases {
