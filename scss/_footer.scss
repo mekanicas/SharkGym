@@ -3,24 +3,36 @@
     margin-right: 20px;
     vertical-align: middle;
   }
-  
   .image-container {
     max-width: 100%;
     height: auto;
   }
-  
+  .links{
+    h4{
+      color: #FCFCF7;
+      text-decoration: underline;
+    }
+    a{
+      color: #f2efe6;
+      text-decoration: none;
+      font-size: 1.25rem;
+      &:hover{
+        color: #b1b1b1;
+        transition: 0.3s;
+      }
+    }
+  }
   .redes {
     h5 {
       text-decoration: underline;
       margin-bottom: 15px;
     }
-  
     i {
       color: #ffffff;
-  
       &:hover {
         color: #b1b1b1;
-        transition: 0.3s;
+        transition: 0.5s;
+        transform: scale(1.4);
       }
     }
   }
