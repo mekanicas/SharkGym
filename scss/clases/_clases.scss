@@ -1,3 +1,7 @@
+.background-clases{
+  @include background-flyer ('../../media/gym_media/CLASES3.JPG');
+  width: 100vw;
+}
 .clases {
     margin: 5rem;
     text-align: center;
@@ -21,9 +25,14 @@
   
   .cartas {
     width: 30rem;
-    background-color: #Fd06a2;
-    color: #fefffa;
+    background-color: $verdeclaro;
+    color: #050505;
     font-family: 'Open Sans', sans-serif;
+    div{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
     img {
       margin-top: 10px;
       height: 20rem;
@@ -35,6 +44,10 @@
     background-color: white;
     color: black;
     border-color: black;
+    padding: 10px;
+    height: 50px;
+    width: 170px;
+    text-align: center;
     &:hover{
       background-color: #636363;
       color: #fefffa;

@@ -9,60 +9,46 @@
       margin-right: 0;
     }
   
-    .contenido-titulo {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .galeriaimagenes {
-      gap: 20px;
-    }
-  
-    .galeriaimagenes .contenedores {
+    .galeriaimagenes .contenedores{
       flex-direction: column;
       align-items: center;
-  
-      img {
+      .contenido-titulo{
+        width: 100%;
+        text-align: center;
+      }
+      .contenido{
         width: 80vw;
       }
+      img{
+        width: 80vw;
+      }
+      .sedes-titulos {
+        height: 200px;
+        width: auto;
+        margin-left: 25px;
+      }
+      .contendor-line{
+        display: none;
+      }
+      .contenido-line{
+        display: none;
+      }
+      .texto-sedes{
+        margin-top: 20px;
+        height: 500px;
+        width: auto;
+        margin-left: 25px;
+      }
+      contenedor-mapa{
+        width: 300px;
+        height: 300px;
+      }
+      .mapa-tamaño{
+        width: 100%;
+        height: auto;
+        margin: 0;
+      }
     }
-  
-    .contenedor-line {
-      display: none;
-    }
-  
-    .contenido {
-      width: 80%;
-    }
-  
-    .contenido-line {
-      display: none;
-    }
-  
-    .sedes-titulos {
-      height: 200px;
-      width: auto;
-      margin-left: 25px;
-    }
-  
-    .texto-sedes {
-      margin-top: 20px;
-      height: 500px;
-      width: auto;
-      margin-left: 25px;
-    }
-  
-    contenedor-mapa {
-      width: 300px;
-      height: 300px;
-    }
-  
-    .mapa-tamaño {
-      width: 100%;
-      height: auto;
-      margin: 0;
-    }
-  
     .planes-box {
       margin-top: 50px;
     }

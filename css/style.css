@@ -77,62 +77,6 @@ body {
   transform: scale(1.4);
 }
 
-@media (max-width: 767px) {
-  .image-container {
-    text-align: center;
-  }
-  .footer-image {
-    max-width: 100%;
-    height: 50vh;
-    margin-right: 0;
-  }
-  .contenido-titulo {
-    width: 100%;
-    text-align: center;
-  }
-  .galeriaimagenes {
-    gap: 20px;
-  }
-  .galeriaimagenes .contenedores {
-    flex-direction: column;
-    align-items: center;
-  }
-  .galeriaimagenes .contenedores img {
-    width: 80vw;
-  }
-  .contenedor-line {
-    display: none;
-  }
-  .contenido {
-    width: 80%;
-  }
-  .contenido-line {
-    display: none;
-  }
-  .sedes-titulos {
-    height: 200px;
-    width: auto;
-    margin-left: 25px;
-  }
-  .texto-sedes {
-    margin-top: 20px;
-    height: 500px;
-    width: auto;
-    margin-left: 25px;
-  }
-  contenedor-mapa {
-    width: 300px;
-    height: 300px;
-  }
-  .mapa-tamaño {
-    width: 100%;
-    height: auto;
-    margin: 0;
-  }
-  .planes-box {
-    margin-top: 50px;
-  }
-}
 .section-inicio {
   height: 100vh;
 }
@@ -142,7 +86,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -166,7 +110,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,6 +127,43 @@ body {
 }
 .btn-propio2:hover {
   color: rgb(255, 0, 128);
+}
+
+.background-inicio3 {
+  background-image: url("../media/gym_media/nuestrosplanes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.background-inicio3 h1, .background-inicio3 h3 {
+  font-family: "Archivo Black", "Bebas Neue", sans-serif;
+  margin: 0;
+  color: rgb(255, 128, 0);
+}
+
+.btn-propio3 {
+  color: rgb(255, 128, 0);
+}
+.btn-propio3:hover {
+  color: rgb(255, 128, 0);
+}
+
+.background-clases {
+  background-image: url("../../media/gym_media/CLASES3.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
 }
 
 .clases {
@@ -207,9 +188,14 @@ body {
 
 .cartas {
   width: 30rem;
-  background-color: #Fd06a2;
-  color: #fefffa;
+  background-color: rgb(166, 255, 0);
+  color: #050505;
   font-family: "Open Sans", sans-serif;
+}
+.cartas div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .cartas img {
   margin-top: 10px;
@@ -221,6 +207,10 @@ body {
   background-color: white;
   color: black;
   border-color: black;
+  padding: 10px;
+  height: 50px;
+  width: 170px;
+  text-align: center;
 }
 .btn-clases:hover {
   background-color: #636363;
@@ -308,21 +298,22 @@ body {
   background-color: #a013ff;
 }
 
+.background-sedes {
+  background-image: url("../../media/gym_media/Sedes2.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .galeriaimagenes {
   display: flex;
   flex-direction: column;
   gap: 50px;
-}
-
-.contenido-titulo {
-  background-color: rgb(255, 166, 0);
-  width: 10vw;
-  border-radius: 10px;
-  padding-left: 5px;
-}
-.contenido-titulo:hover {
-  background-color: rgb(163, 106, 0);
-  transition: 0.3s;
 }
 
 .contenido-line {
@@ -336,6 +327,17 @@ body {
 .contenido {
   width: 20vw;
   margin-top: 2.5rem;
+}
+.contenido .contenido-titulo {
+  color: white;
+  background-color: rgb(255, 0, 128);
+  width: 10vw;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+.contenido .contenido-titulo:hover {
+  background-color: rgb(204, 0, 102);
+  transition: 0.3s;
 }
 .contenido p {
   color: rgb(0, 0, 0);
@@ -376,6 +378,8 @@ body {
 .galeriaimagenes .contenedores img:hover {
   opacity: 1;
   border: white solid 2px;
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 .overflowcontainer {
@@ -399,6 +403,11 @@ body {
   height: 900;
 }
 
+.contenedor-mapa:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
 .textoFormulario {
   margin-bottom: 10rem;
 }
@@ -419,6 +428,60 @@ body {
   width: 400px;
   margin: 2rem auto;
   border: rgb(255, 196, 0) solid 5px;
+}
+
+@media (max-width: 767px) {
+  .image-container {
+    text-align: center;
+  }
+  .footer-image {
+    max-width: 100%;
+    height: 50vh;
+    margin-right: 0;
+  }
+  .galeriaimagenes .contenedores {
+    flex-direction: column;
+    align-items: center;
+  }
+  .galeriaimagenes .contenedores .contenido-titulo {
+    width: 100%;
+    text-align: center;
+  }
+  .galeriaimagenes .contenedores .contenido {
+    width: 80vw;
+  }
+  .galeriaimagenes .contenedores img {
+    width: 80vw;
+  }
+  .galeriaimagenes .contenedores .sedes-titulos {
+    height: 200px;
+    width: auto;
+    margin-left: 25px;
+  }
+  .galeriaimagenes .contenedores .contendor-line {
+    display: none;
+  }
+  .galeriaimagenes .contenedores .contenido-line {
+    display: none;
+  }
+  .galeriaimagenes .contenedores .texto-sedes {
+    margin-top: 20px;
+    height: 500px;
+    width: auto;
+    margin-left: 25px;
+  }
+  .galeriaimagenes .contenedores contenedor-mapa {
+    width: 300px;
+    height: 300px;
+  }
+  .galeriaimagenes .contenedores .mapa-tamaño {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .planes-box {
+    margin-top: 50px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
