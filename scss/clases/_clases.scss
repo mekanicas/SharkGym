@@ -1,6 +1,13 @@
 .background-clases{
-  @include background-flyer('../../media/backgroundimgs/backgroundimg2.jpg');
-  width: 100vw;
+  background-image: url('../../media/backgroundimgs/backgroundimg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .clases {
     margin: 5rem;
