@@ -153,16 +153,20 @@ body {
   color: rgb(255, 128, 0);
 }
 
-.background-clases {
-  background-image: url("../../media/backgroundimgs/backgroundimg2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.fondoClases {
+  position: relative;
+  width: 100%;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  overflow: hidden;
+}
+.fondoClases img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .clases {
@@ -297,16 +301,20 @@ body {
   background-color: #a013ff;
 }
 
-.background-sedes {
-  background-image: url("../../media/backgroundimgs/backgroundimg1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.fondoSedes {
+  position: relative;
+  width: 100%;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  overflow: hidden;
+}
+.fondoSedes img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .galeriaimagenes {
