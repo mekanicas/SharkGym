@@ -1,0 +1,49 @@
+.fondoContacto{
+    position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+    }
+.textoFormulario {
+    margin-bottom: 10rem;
+    h2{
+        color: rgb(0, 0, 0);
+        margin: 20px;
+        font-weight: bold;
+        font-size: 5rem;
+        font-family: 'Archivo Black', sans-serif;
+        font-family: 'Bebas Neue', sans-serif;
+
+    }
+    p{
+        display: flex;
+        color: rgb(0, 0, 0);
+        margin: 20px;
+        font-size: 1.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  }
+  .formu {
+    width: 400px;
+    margin: 2rem auto;
+    border-color: $celesteoscuro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .btn-formulario{
+    background-color: $celesteclaro;
+    color: #fff;
+    border-color: $oscuro;
+    &:hover{
+        background-color: $celesteoscuro;
+        border-color: $oscuro;
+    }
+  }

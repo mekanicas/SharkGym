@@ -253,6 +253,22 @@ body {
   transition: 0.5s;
 }
 
+.fondoPlanes {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.fondoPlanes img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .planes {
   color: white;
 }
@@ -519,6 +535,57 @@ body {
   .planes-box {
     margin-top: 50px;
   }
+}
+.fondoContacto {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.fondoContacto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.textoFormulario {
+  margin-bottom: 10rem;
+}
+.textoFormulario h2 {
+  color: rgb(0, 0, 0);
+  margin: 20px;
+  font-weight: bold;
+  font-size: 5rem;
+  font-family: "Archivo Black", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
+}
+.textoFormulario p {
+  display: flex;
+  color: rgb(0, 0, 0);
+  margin: 20px;
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formu {
+  width: 400px;
+  margin: 2rem auto;
+  border-color: rgb(131, 154, 156);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-formulario {
+  background-color: rgb(55, 113, 142);
+  color: #fff;
+  border-color: rgb(50, 57, 61);
+}
+.btn-formulario:hover {
+  background-color: rgb(131, 154, 156);
+  border-color: rgb(50, 57, 61);
 }
 
 /*# sourceMappingURL=style.css.map */

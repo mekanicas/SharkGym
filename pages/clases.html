@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,11 +63,11 @@
           <img src="../media/backgroundimgs/backgroundimg2.jpg" alt="fondoclases">
         </div>
       <!-- Nuestras clases -->
-      <h1 class="clases" >
+      <h1 class="clases" data-aos="flip-up" >
         Nuestras clases
       </h1>
       <section>
-        <div class="row gap-3 justify-content-center">
+        <div class="row gap-3 justify-content-center" data-aos="zoom-in-up">
           <div class="card col-md-4 mb-3 cartas">
             <img src="../media/gym_media/CLASES/boxeo.jpg" class="card-img-top" alt="boxeo1">
             <div class="card-body">
@@ -165,4 +166,6 @@
     crossorigin="anonymous"
   ></script>
   <script src="https://kit.fontawesome.com/e49ba2c53a.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>   AOS.init(); </script>
 </html>

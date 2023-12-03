@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -59,18 +60,15 @@
       </nav>
     </header>
     <main>
-      <div class="container">
-        <img
-          class="img-fluid"
-          src="../media/gym_media/PLANES.jpg"
-          alt="fotoclases"
-        />
+      <div class="fondoPlanes">
+        <img src="../media/gym_media/planes2.jpg" alt="fondoPlanes">
+      </div>
       </div>
       <!-- PLANES -->
       <div class="container">
         <!-- PLAN1 -->
       <div class="planes p-3 text-center row">
-        <div class="col-md-4 texto-planes">
+        <div class="col-md-4 texto-planes" data-aos="fade-right">
           <h1>ELEGÍ TU PLAN</h1>
           <p>Todo lo que buscás en un solo lugar. Estás a un click de distancia de asociarte a la comunidad deportiva más grande del país.</p>
         </div>
@@ -162,5 +160,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://kit.fontawesome.com/e49ba2c53a.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>   AOS.init(); </script>
   </body>
 </html>
