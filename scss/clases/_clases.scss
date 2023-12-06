@@ -1,19 +1,10 @@
-.fondoClases{
-  position: relative;
-      width: 100%;
-      height: 100vh;
-      overflow: hidden;
-      img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-        position: absolute;
-        top: 0;
-        left: 0;
-      }
+.background-clases{
+  @include background-flyer('../media/backgroundimgs/backgroundimg2.jpg');
+  h1{
+    @include font-flyer($verdeclaro);
+    font-size: 10rem;
   }
-      
+}     
 .clases {
     margin: 5rem;
     text-align: center;
@@ -38,7 +29,7 @@
   .cartas {
     width: 30rem;
     background-color: $verdeclaro;
-    color: #050505;
+    color: $negro;
     font-family: 'Open Sans', sans-serif;
     div{
       display: flex;
@@ -51,11 +42,14 @@
       width: auto;
     }
   }
-
+  .card-title{
+    font-weight: bold;
+    font-size: 2rem;
+  }
   .btn-clases{
-    background-color: white;
-    color: black;
-    border-color: black;
+    background-color: $blanco;
+    color: $negro;
+    border-color: $negro;
     padding: 10px;
     height: 50px;
     width: 170px;
@@ -63,7 +57,7 @@
     &:hover{
       background-color: #636363;
       color: #fefffa;
-      border-color: black;
+      border-color: $negro;
       transform: scale(1.2);
       transition: 0.5s;
     }

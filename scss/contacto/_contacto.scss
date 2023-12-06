@@ -1,22 +1,15 @@
-.fondoContacto{
-    position: relative;
-        width: 100%;
-        height: 100vh;
-        overflow: hidden;
-        img{
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          object-position: center;
-          position: absolute;
-          top: 0;
-          left: 0;
-        }
-    }
+.background-contacto{
+  @include background-flyer('../media/backgroundimgs/backgroundimg4.jpg');
+  h1{
+    @include font-flyer($celesteprecioso);
+    font-size: 10rem;
+  }
+}
+
 .textoFormulario {
     margin-bottom: 10rem;
     h2{
-        color: rgb(0, 0, 0);
+        color: $negro;
         margin: 20px;
         font-weight: bold;
         font-size: 5rem;
@@ -26,7 +19,7 @@
     }
     p{
         display: flex;
-        color: rgb(0, 0, 0);
+        color: $negro;
         margin: 20px;
         font-size: 1.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -40,7 +33,7 @@
   }
   .btn-formulario{
     background-color: $celesteclaro;
-    color: #fff;
+    color: $blanco;
     border-color: $oscuro;
     &:hover{
         background-color: $celesteoscuro;
