@@ -5,7 +5,7 @@
   
   .background-inicio {
     @include background-flyer('../media/gym_media/encapuchado.jpg');
-    h1,h3{
+    h1,h2{
       @include font-flyer($verdeclaro)
     }
   }
@@ -17,7 +17,7 @@
  }
  .background-inicio2{
   @include background-flyer('../media/gym_media/sedesbg.jpg');
-    h1,h3{
+    h1,h2{
       @include font-flyer($rojochillon)
   }
  }
@@ -29,7 +29,7 @@
 }
 .background-inicio3{
   @include background-flyer('../media/gym_media/nuestrosplanes.jpg');
-    h1,h3{
+    h1,h2{
       @include font-flyer($naranjahermoso)
   }
  }
