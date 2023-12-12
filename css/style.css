@@ -624,4 +624,24 @@ body {
   border-color: rgb(50, 57, 61);
 }
 
+.background404 {
+  background-color: rgb(131, 154, 156);
+}
+
+.main404 {
+  padding-top: 300px;
+}
+.main404 h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5rem;
+}
+.main404 p {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 2rem;
+}
+.main404 ul {
+  margin-bottom: 100px;
+}
+
 /*# sourceMappingURL=style.css.map */
